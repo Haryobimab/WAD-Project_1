@@ -1,20 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<style>
+    
+h1 {text-align: center;}
+h2 {text-align: center;}
+p {text-align: center;}
+
+table, th, td {
+  border: 1px solid black;
+}
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: yellow;
+  color: black;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+</style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <!-- ini adalah bagian judul -->
-    <title>Document</title>
+    <title>CV Saya</title>
+    
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
 </head>
+    
 <body>
-    <h1>Selamat datang di Halaman CV Sederhana!</h1>
+    <h1>Selamat Datang di Halaman CV Sederhana</h1>
     <figure>
-        <img src="bpak irsyad.jpeg" alt="Strongest One" width=300" height="400">>
-        <figcaption>Foto Profil Saya</figcaption>
+        <center>
+        <img src="bpak irsyad.jpeg" alt="Strongest One" width=300" height="400">
+        </center>
+        <figcaption>Foto Profil Saya (Not Really)</figcaption>
     </figure>
    
-       
-    <hr>
+    <hr size="10px" color="black">
 
     <h2>Biodata Singkat Saya</h2>
     <ol>
@@ -23,21 +58,27 @@
         <li>Umur : 20 Tahun</li>
         <li>Jenis Kelamin : Pria</li>
         <li>Alamat : Jln Sukabirus Gang Umayah </li>
+        <li>Agama : Islam</li>
       </ol>
 
-      <hr>
+    <hr size="10px" color="black">
         
     <h2>Riwayat Pendidikan </h2>
 
         <table border ="1px solid black"
             <tr>
+                <th>Tahun</th>
                 <th>Jenjang Pendidikan</th>
-                <th>Tahun Kelulusan</th>
-                <th>Nama Sekolaj</th>
+                <th>Nama Sekolah</th>
             </tr>
         <tr>
+            <td>2015-2018</td>
+            <td>Sekolah Menengah Pertama</td>
+            <td>MTs Sains Al-Gebra Sorong</td>
+        </tr>
+        <tr>
             <td>2018-2021</td>
-            <td>Sekolah MMenengah Atas</td>
+            <td>Sekolah Menengah Atas</td>
             <td>SMA Sains Averos Sorong</td>
         </tr>
         <tr>
@@ -47,12 +88,51 @@
         </tr>
         </table>
 
-        <hr>
+      <hr size="10px" color="black">
 
-        <h2>Ketertarikan Saya</h2>
-        <p>Saat ini saya mempunyai ketertarikan dengan mempelajari Front End terutama HTML dan CSS.<br>
-        Saya juga seringkali menambah wawasan dengan membaca buku yang menarik dengan melakukan praktik</p>
-    <hr>
+    <h2>Skill</h2>
+      
+      <table align ="center">
+        <thead>
+            <tr>
+                <th>Skill</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <ul>
+                        <li>HTML (Beginner)</li>
+                        <li>CSS (Still Learning)</li>
+                        <li>Figma (Normal)</li>
+                        <li>Editing Photo with Lightroom</li>
+                    </ul>
+                </td>
+            </tbody>
+      </table>
+
+      <hr size="10px" color="black">
+
+       <h2>About Me</h2>
+        <p>
+            Halo, saya merupakan seorang Mahasiswa yang berdomisili di Bandung. <br>
+            Saat ini saya sedang mempelajari HTML yang berkaitan dengan Matkul WAD.
+        </p>
+        <p>
+            Saya memang masih baru dalam web development,<br> karena itu
+            saya tidak akan pernah berhenti belajar.
+        </p>
+        <p>
+            Saya ingin menguasai bahasa HTML, CSS, dan tahap lanjutnya seperti Javascript dll.
+            <br> jika tertarik, anda bisa mengecek <a href="https://www.youtube.com/channel/UCtGci9JNsBqL7Z-lZX9dGHw">Video saya</a>
+        </p>
+        <p>
+    
+    <hr size="10px" color="black">
+
+    <footer style="text-align: center;">
+        <p>Copyright &copy; 2023 Haryo Bima Bodrokusumo.</p>
+    </footer>
     
 </body>
 </html>
